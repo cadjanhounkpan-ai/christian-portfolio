@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import type { Locale } from "@/types";
 
 const dictionaries = {

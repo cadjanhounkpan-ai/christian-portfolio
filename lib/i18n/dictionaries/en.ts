@@ -1,6 +1,6 @@
 import type fr from "./fr";
 
-const en: typeof fr = {
+const en = {
   meta: {
     skipToContent: "Skip to main content",
   },

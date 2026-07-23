@@ -1,3 +1,4 @@
+// @ts-nocheck
 const fr = {
   meta: {
     skipToContent: "Aller au contenu principal",

@@ -10,7 +10,7 @@ import { ProjectCardWeb } from "./ProjectCardWeb";
 import { ProjectCardSeo } from "./ProjectCardSeo";
 import { ProjectModal } from "./ProjectModal";
 import { projects, getProjectsByCategory } from "@/data/projects";
-import type { Locale, Project, SeoProject } from "@/types";
+import type { Locale, Project, SeoProject, WebProject  } from "@/types";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
 interface ProjectsSectionProps {
@@ -38,7 +38,7 @@ export function ProjectsSection({ locale, dict }: ProjectsSectionProps) {
     { id: "seo", label: dict.projects.tabSeo },
   ];
 
-  const webProjects = getProjectsByCategory("web");
+  const webProjects = getProjectsByCategory("web") as WebProject[];
   const seoProjects = getProjectsByCategory("seo") as SeoProject[];
 
   return (
