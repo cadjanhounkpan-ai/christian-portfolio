@@ -1,3 +1,4 @@
+// Force redeploy - 23 juillet 2026
 import { Hero } from "@/components/sections/Hero";
 import { TrustBar } from "@/components/sections/TrustBar";
 import { Problems } from "@/components/sections/Problems";
