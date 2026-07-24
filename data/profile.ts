@@ -34,7 +34,7 @@ export const profile: Profile = {
     {
       id: "linkedin",
       label: "LinkedIn",
-      url: "www.linkedin.com/in/christian-adjanhounkpan-336320375", 
+      url: "https://www.linkedin.com/in/christian-adjanhounkpan-336320375", 
       icon: "linkedin",
     },
     {
