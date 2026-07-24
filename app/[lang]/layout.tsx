@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="7TeKAwVoqifYIImPCuQtVTgWY8Ia1IKFtV7XVbfvhsg" />
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import "@/app/globals.css";
