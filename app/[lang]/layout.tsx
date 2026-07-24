@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="7TeKAwVoqifYIImPCuQtVTgWY8Ia1IKFtV7XVbfvhsg" />
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import "@/app/globals.css";
@@ -134,6 +133,9 @@ export default async function LangLayout({
 
   return (
     <html lang={locale} className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
+       <head>
+        <meta name="google-site-verification" content="7TeKAwVoqifYIImPCuQtVTgWY8Ia1IKFtV7XVbfvhsg" />
+      </head>
       <body className="font-sans">
         <a
           href="#top"
